@@ -7,11 +7,11 @@ basic.forever(function () {
     }
     if (input.buttonIsPressed(Button.B)) {
         music.setTempo(60)
-        music.play(music.stringPlayable("D E C A G B C5 B ", 120), music.PlaybackMode.UntilDone)
     }
 })
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("C5 B C5 A B G A F ", 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("C D E F G A B C5 ", 120), music.PlaybackMode.UntilDone)
     }
 })
